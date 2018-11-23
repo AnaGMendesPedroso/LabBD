@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="styles/home.css"/>
-        <title>JSP Page</title>
+        <title>Passo 1</title>
     </head>
     <body id="passo1">
         <div class="content">
@@ -93,7 +93,7 @@
             </div>
             
             <div class="buttons-container">
-                <a class="next-step" href="${pageContext.request.contextPath}/passo2">
+                <a class="next-step" href="${pageContext.request.contextPath}/passo2_1">
                     PRÓXIMO PASSO
                 </a>
             </div>
