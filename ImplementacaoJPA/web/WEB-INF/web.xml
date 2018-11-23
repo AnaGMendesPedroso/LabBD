@@ -14,6 +14,10 @@
         <url-pattern>/passo2_3</url-pattern>
         <url-pattern>/passo3</url-pattern>
         <url-pattern>/passo4</url-pattern>
+        <url-pattern>/passo5</url-pattern>
+        <url-pattern>/passo6</url-pattern>
+        <url-pattern>/passo7</url-pattern>
+        <url-pattern>/passo8</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
