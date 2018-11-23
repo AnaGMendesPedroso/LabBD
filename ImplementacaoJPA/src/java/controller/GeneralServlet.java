@@ -30,6 +30,14 @@ public class GeneralServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         String jsp = null;
+        
+        if (request.getRequestURI().endsWith("/passo1")) {
+            jsp = "/passo1.jsp";
+        }
+        if (request.getRequestURI().endsWith("/passo2")) {
+            cadastraUsuario(request);
+            jsp = "/passo2.jsp";
+        }
 
         if (request.getRequestURI().endsWith("/home")) {
             cadastraUsuario(request);

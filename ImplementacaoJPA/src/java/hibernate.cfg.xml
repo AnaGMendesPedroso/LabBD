@@ -42,22 +42,19 @@ Contributor(s):
 <hibernate-configuration>
   <session-factory>
     
-        <!-- dados da conexao -->
-        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
-        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/labbd</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">root</property>
-        
-        <!--  propriedades do hibernate -->
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-        <property name="hibernate.hbm2ddl.auto">create</property>
-        <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.default_schema">cadastroschema</property>
-            
-        <!-- entidades mapeada -->
-            <!-- HotelManager -->
-            <mapping class="entity.Usuario"/>
-            <!-- ReservaManager -->
-
+    <!-- dados da conexao -->
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/labbd</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">root</property>
+    
+    <!--  propriedades do hibernate -->
+    <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="hibernate.hbm2ddl.auto">create</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.default_schema">cadastroschema</property>
+    
+    <!-- entidades mapeada -->
+    <mapping class="entity.Usuario"/>
   </session-factory>
 </hibernate-configuration>
