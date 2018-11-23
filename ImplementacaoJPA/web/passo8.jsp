@@ -14,6 +14,7 @@
     </head>
     <body>
         <div class="form-wrap">
+            <img src="styles/giphy.gif" height="240" width="320">
             <p>${mensagem}</p>
         </div>
     </body>
