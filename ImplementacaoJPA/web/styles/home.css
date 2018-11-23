@@ -95,6 +95,10 @@ p.code {
     font-weight: normal;
 }
 
+.tab {
+    padding-left: 40px;
+}
+
 /* ================== BOTÕES ================== */
 .buttons-container {
     margin: 30px auto;

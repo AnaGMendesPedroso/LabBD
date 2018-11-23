@@ -48,7 +48,7 @@
             </div>
             
             <div class="buttons-container">
-                <a class="next-step" href="${pageContext.request.contextPath}/passo2_2">
+                <a class="next-step" href="${pageContext.request.contextPath}/passo3">
                     PRÓXIMO PASSO
                 </a>
             </div>
