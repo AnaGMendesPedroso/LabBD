@@ -48,4 +48,13 @@ public class CadastroTest {
         cadastro.cadastrarUsuario(login, senha);
         
     }
+    
+    public void hello2() {
+        String login = "Felipe";
+        String senha = "123456";
+        
+        Cadastro cadastro = new Cadastro();
+        
+        System.out.println("RESULTADO: " + cadastro.validarUsuario(login, senha) );
+    }
 }
