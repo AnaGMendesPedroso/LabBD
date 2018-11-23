@@ -13,9 +13,9 @@ import java.sql.SQLException;
  * @author anapedroso
  */
 public abstract class AbstractFactory {
-    private final String database = "jdbc:derby://localhost:1527/LabBD";
-    private final String user = "userlab";
-    private final String password = "userlab";
+    private final String database = "jdbc:derby://localhost:1527/labbd";
+    private final String user = "aluno0";
+    private final String password = "aluno0";
     
      protected Connection conn;
 
