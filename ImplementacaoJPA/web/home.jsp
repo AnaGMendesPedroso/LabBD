@@ -9,11 +9,19 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" type="text/css" href="styles/home.css"/>
+        <title>Welcome</title>
     </head>
-    <body>
-        <a href="${pageContext.request.contextPath}/home">
-            Cadastrar
-        </a>
+    <body id="home">  
+        <div class="content">
+            <div class="welcome">
+                <h1>Bem-vindo ao tutorial de implementação JPA</h1>
+            </div>
+            <div class="buttons-container">
+                <a class="next-step" href="${pageContext.request.contextPath}/passo1">
+                    COMEÇAR
+                </a>
+            </div>
+        </div>
     </body>
 </html>

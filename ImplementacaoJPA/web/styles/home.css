@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2018, 1:27:23 AM
+    Author     : felipecaggi
+*/
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, h1, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    text-align: center;
+}
+
+.welcome {
+    width: 500px;
+    margin: 300px auto 0px auto;
+    text-align: center;
+}
+
+.content {
+    margin: 60px;
+}
+
+.box {
+    display: inline-block;
+    vertical-align: top;
+    /*border: 2px solid windowtext;*/
+}
+
+.exercise {
+    width: 500px;
+}
+
+.title-exercise {
+    padding: 20px;
+    background-color: #FFB84C;
+}
+
+.instructions {
+    text-align: left;
+}
+
+.step p {
+    font-weight: bold;
+}
+
+/* ================== DEFINITION ================== */
+.definition {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.definition p {
+    margin: 0px;
+}
+
+.odd-definition, .even-definition {
+    padding: 20px;
+}
+
+.odd-definition {
+    background-color: #00B0FF;
+}
+
+.even-definition {
+    background-color: #4CC7FF;
+}
+
+/* ================== LISTAS ================== */
+.step {
+    margin-top: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li.code {
+    margin-left: 30px;
+    list-style: none;
+}
+
+
+/* ================== BOTÕES ================== */
+.buttons-container {
+    margin: 30px auto;
+    text-align: center;
+}
+
+.next-step {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 0 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.next-step:hover {
+    background-color: #45a049;    
+}
+

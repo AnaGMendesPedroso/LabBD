@@ -8,6 +8,9 @@
         <servlet-name>GeneralServlet</servlet-name>
         <url-pattern>/GeneralServlet</url-pattern>
         <url-pattern>/home</url-pattern>
+        <url-pattern>/passo1</url-pattern>
+        <url-pattern>/passo2</url-pattern>
+        <url-pattern>/passo3</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
