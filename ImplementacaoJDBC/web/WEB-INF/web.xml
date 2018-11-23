@@ -7,7 +7,7 @@
     <servlet-mapping>
         <servlet-name>UsuarioServlet</servlet-name>
         <url-pattern>/passo1</url-pattern>
-        <url-pattern>/passo2-1</url-pattern>
+        <url-pattern>/passo2c</url-pattern>
         <url-pattern>/passo3</url-pattern>
         <url-pattern>/passo4</url-pattern>
         <url-pattern>/passo5</url-pattern>
@@ -15,8 +15,8 @@
         <url-pattern>/passo7</url-pattern>
         <url-pattern>/index</url-pattern>
         <url-pattern>/passo8</url-pattern>
-        <url-pattern>/passo2-3</url-pattern>
-        <url-pattern>/passo2-2</url-pattern>
+        <url-pattern>/passo2a</url-pattern>
+        <url-pattern>/passo2b</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

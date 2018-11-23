@@ -10,15 +10,12 @@ package model;
  * @author anapedroso
  */
 public class Usuario {
-    private long id;
+
     private String login;
+    private String senha;
+    private long id;
 
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
+    Usuario() {
     }
 
     public String getLogin() {
@@ -47,6 +44,5 @@ public class Usuario {
         this.login = login;
         this.senha = senha;
     }
-    private String senha;
 
 }
