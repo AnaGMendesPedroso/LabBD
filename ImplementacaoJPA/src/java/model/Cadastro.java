@@ -29,6 +29,18 @@ public class Cadastro {
         
         session.close();
         
-    }   
+    }
+    
+    public boolean validarUsuario(String login, String senha) {
+
+        Session session = HibernateUtil.getSession();
+                        
+        Usuario usuario = (Usuario) session.get(Usuario.class, senha);
+        
+        session.close();
+        
+        return usuario.getSenha().equals(senha);
+        
+    }
     
 }

@@ -46,6 +46,9 @@ public class GeneralServlet extends HttpServlet {
         else if (request.getRequestURI().endsWith("/passo3")) {
             jsp = "/passo3.jsp";
         }
+        else if (request.getRequestURI().endsWith("/passo4")) {
+            jsp = "/passo4.jsp";
+        }
         if (request.getRequestURI().endsWith("/home")) {
             cadastraUsuario(request);
             jsp = "/home.jsp";

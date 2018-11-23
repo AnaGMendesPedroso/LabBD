@@ -13,6 +13,7 @@
         <url-pattern>/passo2_2</url-pattern>
         <url-pattern>/passo2_3</url-pattern>
         <url-pattern>/passo3</url-pattern>
+        <url-pattern>/passo4</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
