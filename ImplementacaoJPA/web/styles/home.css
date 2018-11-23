@@ -91,6 +91,9 @@ li.code {
     list-style: none;
 }
 
+p.code {
+    font-weight: normal;
+}
 
 /* ================== BOTÕES ================== */
 .buttons-container {

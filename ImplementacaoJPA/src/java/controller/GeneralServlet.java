@@ -35,14 +35,14 @@ public class GeneralServlet extends HttpServlet {
             jsp = "/passo1.jsp";
         }
         else if (request.getRequestURI().endsWith("/passo2_1")) {
-            cadastraUsuario(request);
             jsp = "/passo2-1.jsp";
         }
         else if (request.getRequestURI().endsWith("/passo2_2")) {
-            cadastraUsuario(request);
             jsp = "/passo2-2.jsp";
         }
-
+        else if (request.getRequestURI().endsWith("/passo2_3")) {
+            jsp = "/passo2-3.jsp";
+        }
         if (request.getRequestURI().endsWith("/home")) {
             cadastraUsuario(request);
             jsp = "/home.jsp";

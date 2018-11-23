@@ -27,7 +27,7 @@
                 <div class="instructions">
                     <ol class="steps">
                         <li class="step">
-                            <p>Criar uma classe "Usuario" no pacote "entity"</p>
+                            <p>Criar uma classe java "Usuario" no pacote "entity"</p>
                         </li>
                         <li class="step">
                             <p>Adicionar os atributos:</p>

@@ -18,7 +18,7 @@ public class Cadastro {
     public void cadastrarUsuario(String login, String senha) {
 
         Session session = HibernateUtil.getSession();
-        
+                
         session.getTransaction().begin();
         
         Usuario usuario = new Usuario(login, senha);
