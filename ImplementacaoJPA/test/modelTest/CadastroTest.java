@@ -5,7 +5,7 @@
  */
 package modelTest;
 
-import model.Cadastro;
+//import model.Cadastro;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -37,24 +37,24 @@ public class CadastroTest {
     public void tearDown() {
     }
 
-    @Test
-    public void hello() {
-    
-        String login = "Felipe";
-        String senha = "123456";
-        
-        Cadastro cadastro = new Cadastro();
-        
-        cadastro.cadastrarUsuario(login, senha);
-        
-    }
-    
-    public void hello2() {
-        String login = "Felipe";
-        String senha = "123456";
-        
-        Cadastro cadastro = new Cadastro();
-        
-        System.out.println("RESULTADO: " + cadastro.validarUsuario(login, senha) );
-    }
+//    @Test
+//    public void hello() {
+//    
+//        String login = "Felipe";
+//        String senha = "123456";
+//        
+//        Cadastro cadastro = new Cadastro();
+//        
+//        cadastro.cadastrarUsuario(login, senha);
+//        
+//    }
+//    
+//    public void hello2() {
+//        String login = "Felipe";
+//        String senha = "123456";
+//        
+//        Cadastro cadastro = new Cadastro();
+//        
+//        System.out.println("RESULTADO: " + cadastro.validarUsuario(login, senha) );
+//    }
 }

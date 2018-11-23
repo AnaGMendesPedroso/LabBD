@@ -12,7 +12,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.Cadastro;
+//import model.Cadastro;
 
 /**
  *
@@ -20,7 +20,7 @@ import model.Cadastro;
  */
 public class GeneralServlet extends HttpServlet {
     
-    Cadastro cadastro = new Cadastro();
+    //Cadastro cadastro = new Cadastro();
     
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
